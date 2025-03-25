@@ -43,9 +43,12 @@ h6 {
   overflow-wrap: break-word;
 }
 
-/* only if you use a framework */
+/* Css reset end */
 
-#root,
-#__next {
-  isolation: isolate;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin+Sketch:wght@400;700&display=swap");
+
+.logo {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
