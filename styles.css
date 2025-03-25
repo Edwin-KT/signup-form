@@ -125,3 +125,10 @@ button {
   background-color: #3b291f;
   color: white;
 }
+
+.login-button {
+  color: #3b291f;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+}
