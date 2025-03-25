@@ -141,3 +141,11 @@ button {
 .login-button:hover {
   text-decoration: underline;
 }
+
+.form-section > form > input:focus {
+  border-color: blue;
+}
+
+.password:invalid {
+  border-color: red;
+}
