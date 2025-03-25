@@ -81,6 +81,7 @@ body {
 .description {
   max-width: 54ch;
   font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .description span {
