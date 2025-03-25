@@ -113,6 +113,10 @@ body {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 .create-button {
   border: none;
   border-radius: 0.6rem;
