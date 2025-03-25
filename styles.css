@@ -87,11 +87,17 @@ body {
 }
 
 .form-section {
+  width: 70vw;
+}
+
+.form-section > * {
   padding: 2rem;
 }
 
 .form-section > form {
-  margin-top: 4rem;
+  margin-top: 2rem;
+  background-color: #d6dfe7;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.355);
 }
 
 .row {
