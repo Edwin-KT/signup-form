@@ -52,16 +52,6 @@ body {
   font-style: normal;
 }
 
-.description {
-  max-width: 54ch;
-  font-size: 1.2rem;
-}
-
-.description span {
-  display: block;
-  margin-top: 1rem;
-}
-
 .side-section {
   width: 32vw;
   height: 100vh;
@@ -84,4 +74,32 @@ body {
   font-size: 3rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.732);
+}
+
+.description {
+  max-width: 54ch;
+  font-size: 1.2rem;
+}
+
+.description span {
+  display: block;
+  margin-top: 1rem;
+}
+
+.form-section {
+  padding: 2rem;
+}
+
+.form-section > form {
+  margin-top: 4rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.row > div > label {
+  display: block;
 }
