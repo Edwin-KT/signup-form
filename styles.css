@@ -65,6 +65,9 @@ h6 {
 }
 
 .logo {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   position: absolute;
   top: 30vh;
   font-size: 3rem;
