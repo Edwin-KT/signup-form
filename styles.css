@@ -45,6 +45,11 @@ h6 {
 
 /* Css reset end */
 
+:root {
+  --color-brown: #3b291f;
+  --color-skyblue: #d6dfe7;
+}
+
 body {
   display: flex;
   font-family: "Montserrat", sans-serif;
@@ -99,7 +104,7 @@ body {
 
 .form-section > form {
   margin-top: 2rem;
-  background-color: #d6dfe7;
+  background-color: var(--color-skyblue);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.355);
 }
 
@@ -122,12 +127,12 @@ button {
   border-radius: 0.6rem;
   padding: 0.8rem 2.4rem;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.326);
-  background-color: #3b291f;
+  background-color: var(--color-brown);
   color: white;
 }
 
 .login-button {
-  color: #3b291f;
+  color: var(--color-brown);
   font-weight: bold;
   border: none;
   background-color: white;
