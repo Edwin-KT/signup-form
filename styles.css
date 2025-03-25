@@ -54,6 +54,8 @@ h6 {
 .side-section {
   width: 32vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .side-photo {
@@ -64,6 +66,8 @@ h6 {
 
 .logo {
   position: absolute;
-  top: 50vh;
-  left: 15vw;
+  top: 30vh;
+  font-size: 3rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.732);
 }
